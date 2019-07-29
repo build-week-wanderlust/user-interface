@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  text-shadow: 3px 2px #88756E;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+nav .navigation a {
+  margin: 0 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+}
+nav .navigation a:hover {
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  nav .navigation a {
+    margin: 0 20px;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+}
+body .mobile-img {
+  display: none;
+}
+@media (max-width: 500px) {
+  body .mobile-img {
+    display: block;
+    height: 670px;
+  }
+}
+.home .main-header {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home .main-header .header-img {
+  width: 90%;
+}
+@media (max-width: 900px) {
+  .home .main-header .header-img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .main-header .header-img {
+    display: none;
+  }
+}
+.home .main-header .text-header {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .home .main-header .text-header {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .main-header .text-header {
+    top: 45%;
+    width: 100%;
+  }
+}
+.home .main-header .button {
+  display: block;
+  background-color: #231C04;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.5%;
+  border-radius: 5px;
+  color: #D6CBCF;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home .main-header .button:hover {
+  background-color: #D6CBCF;
+  color: #231C04;
+  border: 1px solid #231C04;
+}
+@media (max-width: 900px) {
+  .home .main-header .button {
+    padding-top: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .home .main-header .button {
+    padding-top: 1.5%;
+    top: 60%;
+  }
+}

@@ -1,0 +1,46 @@
+body {
+    .mobile-img {
+        display: none;
+        @media @mobile{
+            display: block;
+            height: 670px;
+        }
+    }
+}
+
+.home {
+    .main-header{
+      padding-bottom: 30px;
+      .display();
+      flex-direction: column;
+      align-items: center;
+      .header-img{
+          width: 90%;
+          @media @tablet{
+            width: 100%;
+          }
+          @media @mobile{
+            display: none;
+          }
+      }
+      .text-header{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .display();
+        flex-direction: column;
+        align-items: center;
+        @media @tablet{
+            width: 100%;
+        }
+        @media @mobile{
+            top: 45%;
+            width: 100%
+        }
+      }
+      .button{
+        .button-style();
+      } 
+    }
+}

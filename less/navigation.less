@@ -1,0 +1,29 @@
+nav{
+    .display();
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+    .navigation{
+        a{
+            margin: 0 40px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.8rem;
+            text-transform: lowercase;
+            &:hover{
+                text-transform: uppercase;
+            }
+            @media @mobile{
+                margin: 0 20px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+    @media @mobile {
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+    }
+}
