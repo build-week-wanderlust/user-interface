@@ -189,7 +189,7 @@ nav {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 30px 0;
+  padding: 25px 0 5px;
   width: 90%;
   margin: 0 auto;
 }
@@ -305,7 +305,7 @@ nav .navigation a:hover {
 @media (max-width: 500px) {
   .footer-contact {
     position: absolute;
-    top: 98%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -359,7 +359,7 @@ body .mobile-img {
 }
 @media (max-width: 900px) {
   .home .main-header .text-header {
-    top: 30%;
+    top: 26%;
     width: 50%;
   }
 }
@@ -391,6 +391,11 @@ body .mobile-img {
   background-color: #D6CBCF;
   color: #231C04;
   border: 1px solid #231C04;
+}
+@media (max-width: 900px) {
+  .home .main-header .button {
+    top: 70%;
+  }
 }
 @media (max-width: 500px) {
   .home .main-header .button {
@@ -611,6 +616,19 @@ header h2 {
   margin-bottom: 16px;
   resize: vertical;
 }
+.contact-form #subject {
+  height: 200px;
+}
+@media (max-width: 900px) {
+  .contact-form #subject {
+    height: 180px;
+  }
+}
+@media (max-width: 500px) {
+  .contact-form #subject {
+    height: 140px;
+  }
+}
 .contact-form input[type=submit] {
   display: block;
   background-color: #231C04;
@@ -629,6 +647,11 @@ header h2 {
   color: #231C04;
   border: 1px solid #231C04;
 }
+@media (max-width: 900px) {
+  .contact-form input[type=submit] {
+    top: 70%;
+  }
+}
 @media (max-width: 500px) {
   .contact-form input[type=submit] {
     top: 350px;
@@ -643,7 +666,7 @@ header h2 {
 @media (max-width: 500px) {
   .contact-form {
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;

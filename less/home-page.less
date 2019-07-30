@@ -37,7 +37,7 @@ body {
         color: @font-color;
         width: 550px;
         @media @tablet{
-          top: 30%;
+          top: 26%;
           width: 50%;
         }
         @media @mobile{
@@ -218,6 +218,15 @@ header{
     margin-bottom: 16px;
     resize: vertical;
   }
+  #subject{
+    height:200px;
+    @media @tablet{
+      height: 180px;
+    }
+    @media @mobile{
+      height: 140px;
+    }
+  }
   input[type=submit] {
     .button-style();
     &:hover{
@@ -228,7 +237,7 @@ header{
   }
   @media @mobile{
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
