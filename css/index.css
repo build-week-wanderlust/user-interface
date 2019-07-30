@@ -232,6 +232,11 @@ nav .navigation a:hover {
   color: #000000;
   font-size: 1.3rem;
 }
+@media (max-width: 800px) {
+  .footer-home a {
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   .footer-home a {
     margin: 0 20px;
@@ -262,6 +267,11 @@ nav .navigation a:hover {
   text-decoration: none;
   color: #000000;
   font-size: 1.3rem;
+}
+@media (max-width: 800px) {
+  .footer-about a {
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   .footer-about a {
@@ -299,6 +309,11 @@ nav .navigation a:hover {
     margin: 0 20px;
     font-size: 1rem;
     color: #000000;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .footer-contact a {
     text-align: center;
   }
 }
@@ -359,8 +374,8 @@ body .mobile-img {
 }
 @media (max-width: 800px) {
   .home .main-header .text-header {
-    top: 26%;
-    width: 50%;
+    top: 22%;
+    width: 55%;
   }
 }
 @media (max-width: 500px) {
@@ -394,7 +409,7 @@ body .mobile-img {
 }
 @media (max-width: 800px) {
   .home .main-header .button {
-    top: 70%;
+    top: 64%;
   }
 }
 @media (max-width: 500px) {
@@ -649,7 +664,7 @@ header h2 {
 }
 @media (max-width: 800px) {
   .contact-form input[type=submit] {
-    top: 70%;
+    top: 64%;
   }
 }
 @media (max-width: 500px) {
