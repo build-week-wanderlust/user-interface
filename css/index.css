@@ -365,7 +365,7 @@ body .mobile-img {
 }
 @media (max-width: 500px) {
   .home .main-header .text-header {
-    top: 38%;
+    top: 200px;
     width: 70%;
   }
 }
@@ -383,7 +383,7 @@ body .mobile-img {
   color: #D6CBCF;
   padding-top: 10px;
   position: absolute;
-  top: 80%;
+  top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -392,11 +392,8 @@ body .mobile-img {
   color: #231C04;
   border: 1px solid #231C04;
 }
-@media (max-width: 900px) {
-}
 @media (max-width: 500px) {
   .home .main-header .button {
-    top: 60%;
     border: 1px solid #D6CBCF;
   }
 }
@@ -631,11 +628,8 @@ header h2 {
   color: #231C04;
   border: 1px solid #231C04;
 }
-@media (max-width: 900px) {
-}
 @media (max-width: 500px) {
   .contact-form input[type=submit] {
-    top: 60%;
     border: 1px solid #D6CBCF;
   }
 }
