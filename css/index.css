@@ -383,7 +383,7 @@ body .mobile-img {
   color: #D6CBCF;
   padding-top: 10px;
   position: absolute;
-  top: 350px;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -394,6 +394,7 @@ body .mobile-img {
 }
 @media (max-width: 500px) {
   .home .main-header .button {
+    top: 350px;
     border: 1px solid #D6CBCF;
   }
 }
@@ -417,7 +418,7 @@ body .mobile-img {
 @media (max-width: 500px) {
   .aboutus-header {
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
@@ -470,7 +471,7 @@ body .mobile-img {
 @media (max-width: 500px) {
   #brudnak {
     position: absolute;
-    top: 480px;
+    top: 490px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -517,7 +518,7 @@ body .mobile-img {
 @media (max-width: 500px) {
   #grams {
     position: absolute;
-    top: 1080px;
+    top: 1120px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -630,6 +631,7 @@ header h2 {
 }
 @media (max-width: 500px) {
   .contact-form input[type=submit] {
+    top: 350px;
     border: 1px solid #D6CBCF;
   }
 }
