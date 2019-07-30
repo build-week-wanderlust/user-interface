@@ -5,13 +5,14 @@ body {
         @media @mobile{
             display: block;
             height: 670px;
+            position: fixed;
         }
     }
 }
 
+// index.html
 .home {
     .main-header{
-      padding-bottom: 30px;
       .display();
       flex-direction: column;
       align-items: center;
@@ -41,14 +42,195 @@ body {
         }
         @media @mobile{
             top: 38%;
-            width: 70%
+            width: 70%;
         }
       }
       .button{
         .button-style();
+        padding-top: 10px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       } 
-      .button2{
-        .button-style();
-      }
     }
+}
+
+// aboutus.html
+.aboutus-header{
+  padding: 30px 0;
+  .display();
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 85%;
+  background-color: @heading-color;
+  @media @tablet{
+    width: 100%;
+  }
+  @media @mobile{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+  }
+  h2{
+    font-size: 4rem;
+    text-shadow: 3px 2px @vanilla;
+    @media @mobile{
+      text-shadow: 3px 2px @shadow;
+    }
+  }
+}
+
+#brudnak{
+  .display();
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 85%;
+  background-color: @brudnak-color;
+  img{
+    .about-img();
+  }
+  .about-brudnak{
+    p{
+      .about-p();
+      margin-bottom: 20px;
+    }
+  }
+  @media @tablet{
+    width: 100%;
+  }
+  @media @mobile{
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed @black;
+  }
+}
+
+#grams{
+  .display();
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 85%;
+  background-color: @grams-color;
+  img{
+    .about-img();
+  }
+  .about-grams{
+    p{
+      .about-p();
+      margin-bottom: 20px;
+    }
+  }
+  @media @tablet{
+    width: 100%;
+  }
+  @media @mobile{
+    position: absolute;
+    top: 1080px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed @black;
+  }
+}
+
+#prins{
+  .display();
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 85%;
+  background-color: @prins-color;
+  img{
+    .about-img();
+  }
+  .about-prins{
+    p{
+      .about-p();
+      margin-bottom: 20px;
+    }
+  }
+  @media @tablet{
+    width: 100%;
+  }
+  @media @mobile{
+    position: absolute;
+    top: 1750px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+// contact.html
+header{
+  h2{
+    .display();
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @media @mobile{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+.contact-form{
+  border-radius: 5px;
+  background-color: @light-gray;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid @vanilla;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    .button-style();
+    &:hover{
+      background-color: @shadow;
+      color: @button-color;
+      border: 1px solid @shadow;
+    }
+  }
+  @media @mobile{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
 }
