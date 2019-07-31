@@ -55,3 +55,18 @@
       margin: 0 auto;
     }
   }
+
+  body {
+    background-color: @main-background;
+    width: auto;
+    max-width: 100%;
+    .mobile-img {
+        display: none;
+        @media @mobile{
+            .display();
+            max-width: 100%;
+            width: auto;
+            min-height: 823px;
+        }
+    }
+}
