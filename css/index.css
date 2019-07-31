@@ -213,7 +213,7 @@ nav .navigation a:hover {
 @media (max-width: 500px) {
   nav {
     position: absolute;
-    top: 4%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
@@ -252,6 +252,23 @@ nav .navigation a:hover {
     transform: translate(-50%, -50%);
   }
 }
+#footHome p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  #footHome p {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f2c2;
+  }
+}
 .footer-home {
   display: flex;
   justify-content: center;
@@ -288,6 +305,23 @@ nav .navigation a:hover {
     transform: translate(-50%, -50%);
   }
 }
+#footAbout p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  #footAbout p {
+    position: absolute;
+    top: 3040px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f2c2;
+  }
+}
 .footer-about {
   display: flex;
   justify-content: center;
@@ -319,7 +353,23 @@ nav .navigation a:hover {
 @media (max-width: 500px) {
   .footer-about {
     position: absolute;
-    top: 3100px;
+    top: 3000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+#footContact p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  #footContact p {
+    position: absolute;
+    top: 98%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -354,7 +404,7 @@ nav .navigation a:hover {
 @media (max-width: 500px) {
   .footer-contact {
     position: absolute;
-    top: 95%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

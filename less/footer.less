@@ -1,3 +1,19 @@
+#footHome{
+    p{
+        .display();
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+        @media @mobile{
+            position: absolute;
+            top: 98%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: @vanilla;
+        }
+    }
+}
+
 .footer-home{
     .display();
     padding: 20px 0;
@@ -27,6 +43,22 @@
     }
 }
 
+#footAbout{
+    p{
+        .display();
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+        @media @mobile{
+            position: absolute;
+            top: 3040px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: @vanilla;
+        }
+    }
+}
+
 .footer-about{
     .display();
     padding: 20px 0;
@@ -50,9 +82,24 @@
     }  
     @media @mobile {
         position: absolute;
-        top: 3100px;
+        top: 3000px;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+#footContact{
+    p{
+        .display();
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+        @media @mobile{
+            position: absolute;
+            top: 98%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
 
@@ -78,7 +125,7 @@
     }  
     @media @mobile {
         position: absolute;
-        top: 95%;
+        top: 94%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
