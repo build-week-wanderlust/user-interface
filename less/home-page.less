@@ -95,6 +95,9 @@ body {
       background-color: @bean;
       border: 2px solid @shadow;
       padding: 10px;
+      @media @tablet{
+        top: 50%;
+      }
       @media @mobile{
         color: @light-gray;
         text-shadow: 3px 2px @shadow;
@@ -239,6 +242,10 @@ body {
   width: 70%;
   height: 125px;
   background-color: @light-gray;
+  @media @tablet{
+    width: 100%;
+    height: 100px;
+  }
     a{
       font-size: 4.5rem;
       text-decoration: none;
@@ -250,6 +257,9 @@ body {
       top: 2650px;
       left: 50%;
       transform: translate(-50%, -50%);
+      @media @tablet{
+        top: 2570px;
+      }
       @media @mobile{
         position: absolute;
         top: 2900px;

@@ -499,6 +499,11 @@ body .mobile-img {
   border: 2px solid #88756E;
   padding: 10px;
 }
+@media (max-width: 800px) {
+  .aboutus-header h2 a {
+    top: 50%;
+  }
+}
 @media (max-width: 500px) {
   .aboutus-header h2 a {
     color: #D6CBCF;
@@ -690,6 +695,12 @@ body .mobile-img {
   height: 125px;
   background-color: #D6CBCF;
 }
+@media (max-width: 800px) {
+  #back-top {
+    width: 100%;
+    height: 100px;
+  }
+}
 #back-top a {
   font-size: 4.5rem;
   text-decoration: none;
@@ -701,6 +712,11 @@ body .mobile-img {
   top: 2650px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media (max-width: 800px) {
+  #back-top a {
+    top: 2570px;
+  }
 }
 @media (max-width: 500px) {
   #back-top a {
