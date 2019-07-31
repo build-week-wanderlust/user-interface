@@ -5,7 +5,8 @@
 https://docs.google.com/document/d/1Dmw2BiGxvnfzuEzouDaHQf0NBX0Dfa33jV7NVMHTyww/edit?usp=sharing
 
 # Proposal
-	Wanderlust helps local tour guides of all types advertise their private/professional trips and experiences they offer. 
+
+- Wanderlust helps local tour guides of all types advertise their private/professional trips and experiences they offer. 
 
 # Features
 
@@ -20,17 +21,13 @@ https://docs.google.com/document/d/1Dmw2BiGxvnfzuEzouDaHQf0NBX0Dfa33jV7NVMHTyww/
 
 # Frameworks - Libraries
 
-- What 3rd party frameworks/libraries are you considering using?
-- Do APIs require you to contact its maintainer to gain access?
-- Are you required to pay to use the API? No.
-- Have you considered using Apple Frameworks? (MapKit, Healthkit, ARKit?)
+- The back-end engineer used the Spring Framework
 
 # Target Audience
 
-- Who is your target audience? 
-	Travel guides and adventurers!
+- Our target audiances are travel guides and adventurers!
 
 
 # Prototype Key Feature(s)
 
- Users can login, create read and update their trips with a trip type, location, duration and whether it's private or professional.
+- Users can login, create read and update their trips with a trip type, location, duration and whether it's private or professional.
