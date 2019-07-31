@@ -27,3 +27,33 @@ nav{
         font-weight: bold;
     }
 }
+
+.about-nav{
+    .display();
+    padding: 25px 0 5px;
+    width: 90%;
+    margin: 0 auto;
+    div{
+        a{
+            margin: 0 40px;
+            text-decoration: none;
+            color: @font-color;
+            font-size: 1.8rem;
+            text-transform: lowercase;
+            &:hover{
+                text-transform: uppercase;
+            }
+            @media @mobile{
+                margin: 0 20px;
+                font-size: 1.6rem;
+                color: @vanilla;
+            }
+        }
+    }
+    @media @mobile {
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
