@@ -444,7 +444,7 @@ body .mobile-img {
 }
 @media (max-width: 800px) {
   .home .main-header .button {
-    top: 64%;
+    top: 68%;
   }
 }
 @media (max-width: 500px) {
@@ -715,7 +715,7 @@ body .mobile-img {
 }
 @media (max-width: 800px) {
   #back-top a {
-    top: 2570px;
+    top: 2580px;
   }
 }
 @media (max-width: 500px) {
@@ -801,7 +801,7 @@ header h2 {
 }
 @media (max-width: 800px) {
   .contact-form input[type=submit] {
-    top: 64%;
+    top: 68%;
   }
 }
 @media (max-width: 500px) {
