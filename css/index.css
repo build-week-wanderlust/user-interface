@@ -636,8 +636,9 @@ body .mobile-img {
 @media (max-width: 500px) {
   #brudnak .about-brudnak p {
     width: 90%;
+    padding: 5px;
     background-color: #1d1101;
-    color: #FFFFFF;
+    color: #D6CBCF;
   }
 }
 @media (max-width: 800px) {
@@ -693,8 +694,9 @@ body .mobile-img {
 @media (max-width: 500px) {
   #grams .about-grams p {
     width: 90%;
+    padding: 5px;
     background-color: #1d1101;
-    color: #FFFFFF;
+    color: #D6CBCF;
   }
 }
 @media (max-width: 800px) {
@@ -751,8 +753,9 @@ body .mobile-img {
 @media (max-width: 500px) {
   #prins .about-prins p {
     width: 90%;
+    padding: 5px;
     background-color: #1d1101;
-    color: #FFFFFF;
+    color: #D6CBCF;
   }
 }
 @media (max-width: 800px) {
