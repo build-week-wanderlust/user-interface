@@ -1,0 +1,60 @@
+// Display mixin
+.display(@display: flex, @justify-content: center, @align-content: center){
+    display: @display;
+    justify-content: @justify-content;
+    align-content: @align-content;
+}
+
+// Button mixin
+.button-style(){
+    display: block;
+    background-color: @button-color;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color:@button-font;
+    &:hover{
+        background-color: @button-font;
+        color: @button-color;
+        border: 1px solid @button-color;
+    }
+    @media @tablet{
+        top: 68%;
+    }
+    @media @mobile{
+        top: 350px;
+        border: 1px solid @button-font;
+    }
+}
+
+// hr mixin
+.hr-style(){
+    width: 80%;
+    @media @mobile{
+        width: 95%;
+    }
+}
+
+// image mixin
+.about-img(){
+    width: 250px;
+    margin: 20px auto;
+    padding: 1.5px;
+    border: 1px solid @black;
+}
+
+// paragraph mixin
+.about-p(){
+    width: 60%;
+    margin: 0 auto;
+    @media @mobile{
+        width: 90%;
+        background-color: @mobile-background;
+        color: @mobile-text;
+    }
+}

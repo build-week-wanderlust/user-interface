@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  html, body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-shadow: 3px 2px @main;
+  }
+  
+  h2 {
+    font-size: 3.2rem;
+    padding-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    .display();
+    @media @tablet{
+      .display();
+      max-width: 90%;
+      width: 100%;
+      margin: 0 auto;
+    }
+    @media @mobile{
+      .display();
+      max-width: 450px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
