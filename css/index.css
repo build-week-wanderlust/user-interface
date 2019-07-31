@@ -474,7 +474,7 @@ nav .navigation a:hover {
 }
 @media (max-width: 500px) {
   .home .main-header .text-header {
-    top: 10rem;
+    top: 18rem;
     width: 70%;
   }
 }
@@ -508,7 +508,7 @@ nav .navigation a:hover {
 }
 @media (max-width: 500px) {
   .home .main-header .button {
-    top: 25rem;
+    top: 34rem;
     border: 1px solid #D6CBCF;
   }
 }
@@ -676,7 +676,7 @@ nav .navigation a:hover {
 @media (max-width: 500px) {
   #grams {
     position: absolute;
-    top: 1850px;
+    top: 1890px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -734,7 +734,7 @@ nav .navigation a:hover {
 @media (max-width: 500px) {
   #prins {
     position: absolute;
-    top: 2500px;
+    top: 2520px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -878,7 +878,7 @@ header h2 {
 }
 @media (max-width: 500px) {
   .contact-form input[type=submit] {
-    top: 25rem;
+    top: 34rem;
     border: 1px solid #D6CBCF;
   }
 }
