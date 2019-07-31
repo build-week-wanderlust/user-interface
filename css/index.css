@@ -205,7 +205,7 @@ body .mobile-img {
     position: fixed;
   }
 }
-nav {
+#home-nav {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -213,24 +213,24 @@ nav {
   width: 90%;
   margin: 0 auto;
 }
-nav .navigation a {
+#home-nav .navigation a {
   margin: 0 40px;
   text-decoration: none;
   color: #000000;
   font-size: 1.8rem;
   text-transform: lowercase;
 }
-nav .navigation a:hover {
+#home-nav .navigation a:hover {
   text-transform: uppercase;
 }
 @media (max-width: 500px) {
-  nav .navigation a {
+  #home-nav .navigation a {
     margin: 0 10px;
     font-size: 1.4rem;
   }
 }
 @media (max-width: 500px) {
-  nav {
+  #home-nav {
     padding: 0;
     width: 80%;
     position: absolute;
@@ -271,6 +271,37 @@ nav .navigation a:hover {
     top: 4%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+.contact-nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 25px 0 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+.contact-nav a {
+  margin: 0 40px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+}
+.contact-nav a:hover {
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .contact-nav a {
+    margin: 0 10px;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .contact-nav {
+    padding: 1rem;
+    width: 80%;
+    font-weight: bold;
   }
 }
 #footHome p {
@@ -391,7 +422,7 @@ nav .navigation a:hover {
 }
 @media (max-width: 500px) {
   #footContact p {
-    padding-top: 8rem;
+    padding-top: 1.5rem;
   }
 }
 .footer-contact {
@@ -423,7 +454,7 @@ nav .navigation a:hover {
 }
 @media (max-width: 500px) {
   .footer-contact {
-    padding-top: 120rem;
+    padding-top: 2rem;
   }
 }
 .home .main-header {

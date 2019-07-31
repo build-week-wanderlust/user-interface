@@ -1,4 +1,4 @@
-nav{
+#home-nav{
     .display();
     padding: 25px 0 5px;
     width: 90%;
@@ -57,5 +57,31 @@ nav{
         top: 4%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+.contact-nav{
+    .display();
+    padding: 25px 0 5px;
+    width: 90%;
+    margin: 0 auto;
+     a{
+        margin: 0 40px;
+        text-decoration: none;
+        color: @font-color;
+        font-size: 1.8rem;
+        text-transform: lowercase;
+        &:hover{
+            text-transform: uppercase;
+        }
+        @media @mobile{
+            margin: 0 10px;
+            font-size: 1.4rem;
+        }
+    }
+    @media @mobile {
+        padding: 1rem;
+        width: 80%;
+        font-weight: bold;
     }
 }
