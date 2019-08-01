@@ -509,6 +509,7 @@ body .mobile-img {
 .home .main-header .button {
   display: block;
   background-color: #231C04;
+  text-decoration: none;
   cursor: pointer;
   width: 200px;
   height: 40px;
@@ -883,6 +884,7 @@ header h2 {
 .contact-form input[type=submit] {
   display: block;
   background-color: #231C04;
+  text-decoration: none;
   cursor: pointer;
   width: 200px;
   height: 40px;
