@@ -1,73 +1,73 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
-  html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-  }
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
   
-  html, body {
-    font-family: 'Roboto', sans-serif;
-  }
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
   
-  h1 {
-    font-size: 4rem;
-    text-shadow: 3px 2px @main;
-  }
+h1 {
+  font-size: 4rem;
+  text-shadow: 3px 2px @main;
+}
   
-  h2 {
-    font-size: 3.2rem;
-    padding-bottom: 10px;
-  }
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
   
-  h4 {
-    font-size: 2.5rem;
-    padding-bottom: 10px;
-  }
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
   
-  p {
-    line-height: 1.5;
-    font-size: 1.6rem;
-    padding-bottom: 10px;
-  }
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
   
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
   
-  .container {
-    max-width: 1000px;
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  .display();
+  @media @tablet{
+    .display();
+    max-width: 90%;
     width: 100%;
     margin: 0 auto;
+  }
+  @media @mobile{
     .display();
-    @media @tablet{
-      .display();
-      max-width: 90%;
-      width: 100%;
-      margin: 0 auto;
-    }
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: @main-background;
+  width: auto;
+  max-width: 100%;
+  .mobile-img {
+    display: none;
     @media @mobile{
       .display();
-      max-width: 450px;
-      width: 100%;
-      margin: 0 auto;
+      max-width: 100%;
+      width: auto;
+      min-height: 823px;
+      position: fixed;
     }
   }
-
-  body {
-    background-color: @main-background;
-    width: auto;
-    max-width: 100%;
-    .mobile-img {
-        display: none;
-        @media @mobile{
-            .display();
-            max-width: 100%;
-            width: auto;
-            min-height: 823px;
-            position: fixed;
-        }
-    }
 }

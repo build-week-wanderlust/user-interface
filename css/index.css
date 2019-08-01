@@ -267,8 +267,9 @@ body .mobile-img {
 }
 @media (max-width: 500px) {
   .about-nav {
+    padding: 0;
     position: absolute;
-    top: 4%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -299,7 +300,7 @@ body .mobile-img {
 }
 @media (max-width: 500px) {
   .contact-nav {
-    padding: 1rem;
+    padding: 1.2rem;
     width: 80%;
     font-weight: bold;
   }

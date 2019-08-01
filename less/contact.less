@@ -1,57 +1,57 @@
 // contact
 header{
-    h2{
-      .display();
-      font-size: 4rem;
-      text-transform: uppercase;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    @media @mobile{
-      position: absolute;
-      top: 12%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      background-color: transparent;
-    }
-  }
-  
-  .contact-form{
-    border-radius: 5px;
-    background-color: @light-gray;
-    padding: 20px;
-    width: 60%;
+  h2{
+    .display();
+    font-size: 4rem;
+    text-transform: uppercase;
     margin: 0 auto;
-    input[type=text], select, textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid @vanilla;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-    }
-    #subject{
-      height:200px;
-      @media @tablet{
-        height: 180px;
-      }
-      @media @mobile{
-        height: 110px;
-      }
-    }
-    input[type=submit] {
-      .button-style();
-      &:hover{
-        background-color: @shadow;
-        border: 1px solid @shadow;
-      }
+    padding: 20px;
+  }
+  @media @mobile{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: transparent;
+  }
+}
+  
+.contact-form{
+  border-radius: 5px;
+  background-color: @light-gray;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid @vanilla;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  #subject{
+    height:200px;
+    @media @tablet{
+      height: 180px;
     }
     @media @mobile{
-      .display();
-      width: 90%;
-      margin-top: 10rem;
+      height: 110px;
     }
   }
+  input[type=submit] {
+    .button-style();
+    &:hover{
+      background-color: @shadow;
+      border: 1px solid @shadow;
+    }
+  }
+  @media @mobile{
+    .display();
+    width: 90%;
+    margin-top: 10rem;
+  }
+}
